@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference android:title="Enable voicemail" android:summary="Enables voice mail"
+  android:key="voicemail" android:disableDependentsState="false"
+  android:persistent="true"/>
+ 
+ <!--  <CheckBoxPreference android:title="Onscreen Reject" android:summary="Reject via touchscreen button"
+  android:key="rejectEnabled" android:dependency="callPrompt"
+  android:persistent="true" />
+
+  <CheckBoxPreference android:title="Hardware Accept" android:summary="Nav/trackball/cam button to answer"
+  android:key="cameraAccept" 
+  android:persistent="true"/>
+  <CheckBoxPreference android:title="Touchscreen Lock" android:summary="Lock touchscreen when screen goes off during calls"
+  android:key="touchLock" android:persistent="true"/>-->
+</PreferenceScreen>
